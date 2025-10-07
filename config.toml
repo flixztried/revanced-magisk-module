@@ -6,14 +6,14 @@ parallel-jobs = 1
 
 # you can use rvmm-config-gen to generate a config
 
-[YouTube Music]
+["YouTube Music"]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
 rv-brand = "ReVanced - inotia00"
 arch = "arm64-v8a"
 build-mode = "both"
-version = "8.30.5"
+version = "8.30.53"
 excluded-patches = "'Custom branding icon for YouTube Music' 'Custom branding name for YouTube Music'"
 
 [YouTube]
