@@ -178,9 +178,6 @@ am force-stop "$PKG_NAME"
 ui_print "* Optimizing $PKG_NAME"
 nohup cmd package compile --reset "$PKG_NAME" >/dev/null 2>&1 &
 
-<<<<<<< HEAD
-ui_print "* Cleanup"
-=======
 if [ "$KSU" ]; then
 	UID=$(dumpsys package "$PKG_NAME" | grep -m1 uid)
 	UID=${UID#*=} UID=${UID%% *}
@@ -197,7 +194,7 @@ if [ "$KSU" ]; then
 			ui_print "  In order for the module to work, you"
 			ui_print "  may need to untick 'Unmount modules'"
 			ui_print "  in KernelSU app for $PKG_NAME"
-			ui_print "  Do not ignore this message and proceed"
+			ui_print "  Do not ignore this message and proceed "
 			ui_print "  to create an issue on the GitHub page!"
 			ui_print ""
 		elif [ $R = 1 ]; then
@@ -209,13 +206,14 @@ if [ "$KSU" ]; then
 	fi
 fi
 
->>>>>>> 6a4f880 (module: handle more install errors)
 rm -rf "${MODPATH:?}/bin" "$MODPATH/$PKG_NAME.apk"
 
 if [ "$KSU" ] && [ -d "/data/adb/modules/zygisk-assistant" ]; then
 	ui_print "* If you are using zygisk-assistant, you need to"
 	ui_print "  give root permissions to $PKG_NAME"
 fi
+
+rm -rf "${MODPATH:?}/bin" "$MODPATH/$PKG_NAME.apk"
 
 ui_print "* Done"
 ui_print "  by j-hc (github.com/j-hc)"
