@@ -1,3 +1,12 @@
+# About
+
+This repository is a fork/derived from j-hc/revanced-magisk-module.
+
+Modifications and maintenance by me: flixztried (https://github.com/flixztried)
+
+This project is distributed under the same license as the original project: see LICENSE.
+Original upstream: https://github.com/j-hc/revanced-magisk-module
+
 # ReVanced Magisk Module
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/rvc_magisk)
 [![CI](https://github.com/j-hc/revanced-magisk-module/actions/workflows/ci.yml/badge.svg?event=schedule)](https://github.com/j-hc/revanced-magisk-module/actions/workflows/ci.yml)
