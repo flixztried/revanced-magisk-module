@@ -217,4 +217,5 @@ rm -rf "${MODPATH:?}/bin" "$MODPATH/$PKG_NAME.apk"
 
 ui_print "* Done"
 ui_print "  by j-hc (github.com/j-hc)"
+ui_print "  fork by flixztried (github.com/flixztried)"
 ui_print " "
