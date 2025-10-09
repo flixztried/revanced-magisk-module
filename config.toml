@@ -29,7 +29,7 @@ version = "20.05.46"
 excluded-patches = "'Custom branding icon for YouTube' 'Custom branding name for YouTube'"
 
 [Instagram]
-apkmirror-dlurl = "https://apkmirror.com/apk/instagram"
+apkmirror-dlurl = "https://apkmirror.com/apk/instagram/instagram-instagram"
 patches-source = "revanced/revanced-patches"
 integrations-source = "revanced/revanced-integrations"
 rv-brand = "ReVanced"
