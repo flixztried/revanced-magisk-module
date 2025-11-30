@@ -34,3 +34,11 @@ arch = "arm64-v8a"
 build-mode = "both"
 included-patches = "'Limit feed to followed profiles' 'Hide explore feed' 'Hide navigation buttons' 'Hide Stories from Home' 'Enable developer menu' 'Open links externally' 'Change link sharing domain'"
 enabled=false
+
+[GooglePhotos]
+build-mode = "both"
+arch = "arm64-v8a"
+version = "auto"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
+uptodown-dlurl = "https://google-photos.en.uptodown.com/android"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.photos"
