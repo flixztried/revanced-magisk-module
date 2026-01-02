@@ -1,6 +1,6 @@
 {
-  "version": "v20.05.46 (patches 3.14.0)",
-  "versionCode": 15,
-  "zipUrl": "https://github.com/flixztried/revanced-magisk-module/releases/download/15/youtube-revanced-extended---anddea-magisk-v20.05.46-arm64-v8a.zip",
+  "version": "v20.05.46 (patches 3.15.0)",
+  "versionCode": 17,
+  "zipUrl": "https://github.com/flixztried/revanced-magisk-module/releases/download/17/youtube-revanced-extended---anddea-magisk-v20.05.46-arm64-v8a.zip",
   "changelog": "https://raw.githubusercontent.com/flixztried/revanced-magisk-module/update/build.md"
 }
